@@ -28,7 +28,7 @@ python isolation.py [args]
 
 A program a következő argumentumokat használ, amelyek közül egyet kell megadni:
 
--d <N> - a számítógép N mélységig menjen le az alpha-beta pruning algoritmussal
+-d \<N\> - a számítógép N mélységig menjen le az alpha-beta pruning algoritmussal
 
--t <N> - a számítógép N másodpercig "gondolkozhat"
+-t \<N\> - a számítógép N másodpercig "gondolkozhat"
 
