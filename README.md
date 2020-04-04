@@ -30,5 +30,5 @@ A program a következő argumentumokat használ, amelyek közül egyet kell mega
 
 -d \<N\> - a számítógép N mélységig menjen le az alpha-beta pruning algoritmussal
 
--t \<N\> - a számítógép N másodpercig "gondolkozhat"
+-t \<N\> - a számítógép N másodpercig "gondolkodhat"
 
