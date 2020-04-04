@@ -18,4 +18,17 @@ Mindig amikor az 1-es játékoson van a sor, a konzolba kiíródik azoknak a ter
 
 A számítógép (2-es játékos) az Alpha-Beta Pruning algoritmus alapján dönti el, hogy mi számára az optimális lépés, ez alatt pedig a konzolra a "Computer is thinking..." felirat kerül. Az algoritmus által használt heurisztikus függvény az 2-es és a 1-es játékosok lehetséges lépéseinek a különbségét számolja ki, úgy, hogy a szám pozitív legyen ha a számítógépnek van több lépés lehetősége, negatív, ha a játékosnak, illetve 0 különben. Ebben a játékban ez egy elég jó heurisztikus függvénynek bizonyúlt. 
 
-##
+## A program futtatása
+A program <b>python 3.6</b> verzióban íródott. 
+
+Meghívás:
+```
+python isolation.py [args]
+```
+
+A program a következő argumentumokat használ, amelyek közül egyet kell megadni:
+
+-d <N> - a számítógép N mélységig menjen le az alpha-beta pruning algoritmussal
+
+-t <N> - a számítógép N másodpercig "gondolkozhat"
+
